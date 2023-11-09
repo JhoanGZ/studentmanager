@@ -22,7 +22,7 @@ class Application:
                 print('Terminando el Programa...\n¡Gracias por su visita!')
                 break
             else:
-                print('Invalid option')
+                print('Opción Invalida')
 
             print('Terminando el Programa...\n¡Gracias por su visita!')
     
@@ -36,9 +36,9 @@ class Application:
                 if user_input in valid_options:
                     return user_input
                 else:
-                    print('Invalid option. Please try again.')
+                    print('Opción Invalida. Por favor intente de nuevo')
             except ValueError:
-                print('Invalid access option. Please try again.')
+                print('Opción de Acceso Invalida. Por favor intente de nuevo')
                 
 app = Application()
 app.main()
