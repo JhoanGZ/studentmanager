@@ -81,7 +81,6 @@ class Estudiante:
 
     def _is_valid_rut(self, rut):
         # validate rut format
-        if(rut.len<= )
         ...
 
     def _is_valid_nombre(self, nombre):

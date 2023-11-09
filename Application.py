@@ -1,6 +1,6 @@
 from model.Estudiante import Estudiante
 from model.Calificacion import Calificacion
-from symbol import classdef
+
 
 class Application:
     
@@ -24,10 +24,9 @@ class Application:
             else:
                 print('Opción Invalida')
 
-            print('Terminando el Programa...\n¡Gracias por su visita!')
+            print('Terminando el Programa\n¡Gracias por su visita!')
     
 
-    @classdef
     def _get_valid_input(self, prompt, valid_options):
         while True:
             user_input = input(prompt)
