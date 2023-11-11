@@ -40,9 +40,9 @@ class Application:
                 if user_input in valid_options:
                     return user_input
                 else:
-                    print('Opción Invalida. Por favor intente de nuevo')
+                    print('Opción Invalida. Por favor intente de nuevo.')
             except ValueError:
-                print('Opción de Acceso Invalida. Por favor intente de nuevo')
+                print('Opción de Acceso Invalida. Por favor intente de nuevo.')
                 
 app = Application()
 app.main()
